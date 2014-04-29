@@ -388,10 +388,10 @@ int lcdInit (const int rows, const int cols, const int bits,
   if (! ((bits == 4) || (bits == 8)))
     return -1 ;
 
-  if ((rows < 0) || (rows > 20))
+  if (rows < 0)
     return -1 ;
 
-  if ((cols < 0) || (cols > 20))
+  if (cols < 0)
     return -1 ;
 
 // Create a new LCD:
