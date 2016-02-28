@@ -1,3 +1,10 @@
+###THIS REPOSITORY IS DEPRECATED
+
+####Please see: https://github.com/WiringPi/WiringPi-Python
+
+
+
+
 **WiringPi 2 for Python**
 
 WiringPi: An implementation of most of the Arduino Wiring
